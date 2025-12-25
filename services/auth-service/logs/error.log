@@ -1,0 +1,13 @@
+2025-12-25 14:49:37:4937 [auth-service] [31merror[39m: [31mError: next is not a function[39m
+2025-12-25 14:51:18:5118 [auth-service] [31merror[39m: [31mError: User already exists with this email[39m
+2025-12-25 16:05:54:554 [auth-service] [31merror[39m: [31mError: User already exists with this email[39m
+2025-12-25 16:06:40:640 [auth-service] [31merror[39m: [31mError: User already exists with this email[39m
+2025-12-25 16:08:00:80 [auth-service] [31merror[39m: [31mError: User already exists with this email[39m
+2025-12-25 16:08:49:849 [auth-service] [31merror[39m: [31mError: Invalid email or password[39m
+2025-12-25 16:09:16:916 [auth-service] [31merror[39m: [31mError: Invalid email or password[39m
+2025-12-25 16:15:35:1535 [auth-service] [31merror[39m: [31mError: User already exists with this email[39m
+2025-12-25 16:16:55:1655 [auth-service] [31merror[39m: [31mError: User already exists with this email[39m
+2025-12-25 16:21:40:2140 [auth-service] [31merror[39m: [31mError: User already exists with this email[39m
+2025-12-25 16:22:16:2216 [auth-service] [31merror[39m: [31mError: User already exists with this email[39m
+2025-12-25 16:22:36:2236 [auth-service] [31merror[39m: [31mError: User already exists with this email[39m
+2025-12-25 16:28:29:2829 [auth-service] [31merror[39m: [31mError: User already exists with this email[39m
