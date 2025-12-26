@@ -58,3 +58,196 @@
 2025-12-25 16:28:17:2817 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
 2025-12-25 16:28:24:2824 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
 2025-12-25 16:28:29:2829 [auth-service] [31merror[39m: [31mError: User already exists with this email[39m
+2025-12-25 19:11:21:1121 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-25 19:12:12:1212 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-25 19:12:54:1254 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-25 19:15:39:1539 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-25 19:20:09:209 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-25 19:20:21:2021 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-25 19:20:28:2028 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-25 19:21:02:212 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-25 19:22:14:2214 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-25 19:25:53:2553 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-25 19:28:02:282 [auth-service] [31merror[39m: [31mError: Invalid email or password[39m
+2025-12-25 19:28:09:289 [auth-service] [32minfo[39m: [32mUser logged in: kabir@example.com[39m
+2025-12-25 19:31:17:3117 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-25 19:31:50:3150 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-25 19:31:55:3155 [auth-service] [31merror[39m: [31mError: No token provided[39m
+2025-12-25 19:32:12:3212 [auth-service] [32minfo[39m: [32mUser logged in: kabir@example.com[39m
+2025-12-25 19:32:31:3231 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-25 19:36:59:3659 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-25 19:37:03:373 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-25 19:37:05:375 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-25 19:37:07:377 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-25 19:38:15:3815 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-25 19:38:29:3829 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-25 19:38:36:3836 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-25 19:39:22:3922 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-25 19:39:46:3946 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-25 19:39:48:3948 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-25 19:39:54:3954 [auth-service] [32minfo[39m: [32mUser logged in: kabir@example.com[39m
+2025-12-25 19:40:05:405 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-25 19:41:59:4159 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-25 20:40:28:4028 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-25 20:40:42:4042 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-25 20:42:24:4224 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-25 20:42:29:4229 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-25 20:42:38:4238 [auth-service] [32minfo[39m: [32mUser logged in: kabir@example.com[39m
+2025-12-25 20:42:49:4249 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-25 20:44:40:4440 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-25 20:44:43:4443 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-25 20:45:16:4516 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-25 20:45:27:4527 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-25 20:46:07:467 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-25 20:46:11:4611 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-25 20:46:15:4615 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-26 05:50:53:5053 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 05:51:13:5113 [auth-service] [32minfo[39m: [32mUser logged in: kabir@example.com[39m
+2025-12-26 05:52:22:5222 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 05:52:36:5236 [auth-service] [32minfo[39m: [32mUser logged in: kabir@example.com[39m
+2025-12-26 05:53:07:537 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-26 05:58:37:5837 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 05:58:57:5857 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 05:59:17:5917 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-26 05:59:22:5922 [auth-service] [32minfo[39m: [32mUser logged in: kabir@example.com[39m
+2025-12-26 05:59:35:5935 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-26 06:02:18:218 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 06:02:28:228 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 06:02:37:237 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-26 06:02:41:241 [auth-service] [32minfo[39m: [32mUser logged in: kabir@example.com[39m
+2025-12-26 06:03:07:37 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-26 06:03:38:338 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-26 06:07:56:756 [auth-service] [32minfo[39m: [32mUser logged in: kabir@example.com[39m
+2025-12-26 06:10:58:1058 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 06:11:18:1118 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 06:12:01:121 [auth-service] [32minfo[39m: [32mUser logged in: kabir@example.com[39m
+2025-12-26 06:13:03:133 [auth-service] [31merror[39m: [31mError: Invalid token[39m
+2025-12-26 06:15:54:1554 [auth-service] [32minfo[39m: [32mUser logged in: kabir@example.com[39m
+2025-12-26 06:21:13:2113 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 06:21:46:2146 [auth-service] [32minfo[39m: [32mUser logged in: kabir@example.com[39m
+2025-12-26 06:22:05:225 [auth-service] [31merror[39m: [31mError: next is not a function[39m
+2025-12-26 06:23:30:2330 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 06:23:43:2343 [auth-service] [32minfo[39m: [32mUser logged in: kabir@example.com[39m
+2025-12-26 06:24:17:2417 [auth-service] [31merror[39m: [31mError: next is not a function[39m
+2025-12-26 06:24:59:2459 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 06:25:36:2536 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 06:25:43:2543 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 06:25:52:2552 [auth-service] [32minfo[39m: [32mUser logged in: kabir@example.com[39m
+2025-12-26 06:26:04:264 [auth-service] [32minfo[39m: [32mUser logged out: kabir@example.com[39m
+2025-12-26 06:27:19:2719 [auth-service] [32minfo[39m: [32mUser logged in: kabir@example.com[39m
+2025-12-26 06:27:48:2748 [auth-service] [32minfo[39m: [32mNew user registered: kabir@example.com[39m
+2025-12-26 06:28:09:289 [auth-service] [32minfo[39m: [32mNew user registered: kabir@example.com[39m
+2025-12-26 06:28:16:2816 [auth-service] [31merror[39m: [31mError: User already exists with this email[39m
+2025-12-26 06:28:49:2849 [auth-service] [32minfo[39m: [32mNew user registered: kabir@example.com[39m
+2025-12-26 06:29:24:2924 [auth-service] [32minfo[39m: [32mUser logged in: kabir@example.com[39m
+2025-12-26 06:30:02:302 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 06:30:22:3022 [auth-service] [32minfo[39m: [32mNew user registered: kabir@example.com[39m
+2025-12-26 06:30:42:3042 [auth-service] [32minfo[39m: [32mUser logged in: kabir@example.com[39m
+2025-12-26 06:31:59:3159 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 06:32:13:3213 [auth-service] [32minfo[39m: [32mUser logged in: {[39m
+[32m  _id: new ObjectId('694dde264e3fcf8317d83be7'),[39m
+[32m  firstName: 'kabir',[39m
+[32m  lastName: 'smith',[39m
+[32m  email: 'kabir@example.com',[39m
+[32m  password: '$2b$10$l6IhE82QVJQ2hkxZsUBN5OU.BzublC.kFAaAlrWD6ZnINq63u5kmi',[39m
+[32m  roles: [ 'patient' ],[39m
+[32m  status: 'active',[39m
+[32m  createdAt: 2025-12-26T01:00:22.780Z,[39m
+[32m  updatedAt: 2025-12-26T01:00:42.481Z,[39m
+[32m  __v: 0[39m
+[32m}[39m
+2025-12-26 06:33:51:3351 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 06:33:59:3359 [auth-service] [32minfo[39m: [32mUser logged in: {[39m
+[32m  _id: new ObjectId('694dde264e3fcf8317d83be7'),[39m
+[32m  firstName: 'kabir',[39m
+[32m  lastName: 'smith',[39m
+[32m  email: 'kabir@example.com',[39m
+[32m  password: '$2b$10$l6IhE82QVJQ2hkxZsUBN5OU.BzublC.kFAaAlrWD6ZnINq63u5kmi',[39m
+[32m  roles: [ 'patient' ],[39m
+[32m  status: 'active',[39m
+[32m  createdAt: 2025-12-26T01:00:22.780Z,[39m
+[32m  updatedAt: 2025-12-26T01:02:13.943Z,[39m
+[32m  __v: 0[39m
+[32m}[39m
+2025-12-26 06:35:09:359 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 06:37:21:3721 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 06:37:29:3729 [auth-service] [31merror[39m: [31mError: next is not a function[39m
+2025-12-26 06:37:41:3741 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 06:37:43:3743 [auth-service] [32minfo[39m: [32mUser logged in: {[39m
+[32m  _id: new ObjectId('694dde264e3fcf8317d83be7'),[39m
+[32m  firstName: 'kabir',[39m
+[32m  lastName: 'smith',[39m
+[32m  email: 'kabir@example.com',[39m
+[32m  password: '$2b$10$l6IhE82QVJQ2hkxZsUBN5OU.BzublC.kFAaAlrWD6ZnINq63u5kmi',[39m
+[32m  roles: [ 'patient' ],[39m
+[32m  status: 'active',[39m
+[32m  createdAt: 2025-12-26T01:00:22.780Z,[39m
+[32m  updatedAt: 2025-12-26T01:03:59.138Z,[39m
+[32m  __v: 0[39m
+[32m}[39m
+2025-12-26 06:38:48:3848 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 06:38:50:3850 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 06:38:52:3852 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 06:38:54:3854 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 06:39:04:394 [auth-service] [32minfo[39m: [32mUser logged in: {[39m
+[32m  _id: new ObjectId('694dde264e3fcf8317d83be7'),[39m
+[32m  firstName: 'kabir',[39m
+[32m  lastName: 'smith',[39m
+[32m  email: 'kabir@example.com',[39m
+[32m  password: '$2b$10$l6IhE82QVJQ2hkxZsUBN5OU.BzublC.kFAaAlrWD6ZnINq63u5kmi',[39m
+[32m  roles: [ 'patient' ],[39m
+[32m  status: 'active',[39m
+[32m  createdAt: 2025-12-26T01:00:22.780Z,[39m
+[32m  updatedAt: 2025-12-26T01:07:43.544Z,[39m
+[32m  __v: 0[39m
+[32m}[39m
+2025-12-26 06:39:39:3939 [auth-service] [32minfo[39m: [32mUser logged out: kabir@example.com[39m
+2025-12-26 06:48:43:4843 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 06:49:08:498 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 06:49:15:4915 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 06:49:21:4921 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 06:50:05:505 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 06:51:33:5133 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 06:57:01:571 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 06:57:27:5727 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 06:57:34:5734 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 07:00:22:022 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 07:00:25:025 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 07:01:36:136 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 07:01:55:155 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 07:02:12:212 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 07:03:06:36 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 07:04:15:415 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 07:04:50:450 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 07:05:31:531 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 07:06:54:654 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 07:08:40:840 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 07:10:18:1018 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 09:54:02:542 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 09:54:56:5456 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 09:54:58:5458 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 10:09:11:911 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 10:13:01:131 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 10:14:15:1415 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 10:15:28:1528 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 10:17:50:1750 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 10:19:08:198 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 10:19:15:1915 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 10:19:41:1941 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 10:20:23:2023 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 10:23:05:235 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 10:23:27:2327 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 10:24:07:247 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 10:39:44:3944 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 10:40:13:4013 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 10:40:24:4024 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 10:40:30:4030 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 10:40:38:4038 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 10:40:44:4044 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 10:40:50:4050 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 10:40:56:4056 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 10:41:02:412 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 10:41:09:419 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 10:41:13:4113 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 10:41:16:4116 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m
+2025-12-26 10:41:22:4122 [auth-service] [32minfo[39m: [32mauth-service is running on port 5000[39m

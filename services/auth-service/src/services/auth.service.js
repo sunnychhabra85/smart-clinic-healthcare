@@ -50,7 +50,7 @@ const register = async (userData) => {
     // user.refreshToken = refreshToken;
     // user.lastLogin = new Date();
     // await user.save({ validateBeforeSave: false });
-    await user.updateOne(
+    await User.updateOne(
         { _id: user._id },
         { $set: { refreshToken, lastLogin: new Date(), } }
     );
@@ -82,7 +82,6 @@ const register = async (userData) => {
 const login = async (email, password) => {
     //find the user by email with password field
     const user = await User.findByEmail(email).select('+password');
-    console.log('User found for login:', user);
     //if user exist or not
     if (!user) {
         throw new AuthenticationError('Invalid email or password');
@@ -95,7 +94,6 @@ const login = async (email, password) => {
 
     // verify password
     const isPasswordValid = await user.comparePassword(password);
-    console.log('Password validity:', isPasswordValid);
     if (!isPasswordValid) {
         throw new AuthenticationError('Invalid email or password');
     }
@@ -108,7 +106,6 @@ const login = async (email, password) => {
     };
     const accessToken = generateAccessToken(tokenPayload);
     const refreshToken = generateRefreshToken({ userId: user._id.toString() });
-
     // // update refresh token in db
     // user.refreshToken = refreshToken;
     // user.lastLogin = new Date();
@@ -120,11 +117,11 @@ const login = async (email, password) => {
     // console.log('Updating user with new refresh token and last login time', user);
     // await user.save({ validateBeforeSave: false });
     // console.log('User updated successfully after login');
-    await user.updateOne(
+    await User.updateOne(
         { _id: user._id },
         { $set: { refreshToken, lastLogin: new Date(), } }
     );
-    logger.info(`User logged in: ${user.email}`);
+    logger.info(`User logged in: ${user}`);
 
     // return user data and tokens
     return {
@@ -149,7 +146,7 @@ const login = async (email, password) => {
 const refreshToken = async (token) => {
     try{
  //verify old refresh token
-    const decoded = verifyRefreshToken(oldRefreshToken);
+    const decoded = verifyRefreshToken(token);
     if (!decoded || !decoded.userId) {
         throw new AuthenticationError('Invalid refresh token');
     }
@@ -191,8 +188,12 @@ const logout = async (userId) => {
         throw new NotFoundError('User not found');
     }
     //invalidate refresh token
-    user.refreshToken = null;
-    await user.save({ validateBeforeSave: false });
+    // user.refreshToken = null;
+    // await user.save({ validateBeforeSave: false });
+    await User.updateOne(
+        { _id: user._id },
+        { $set: { refreshToken: null } }
+    );
 
     logger.info(`User logged out: ${user.email}`)
 }
@@ -208,7 +209,7 @@ const getProfile = async (userId) => {
         throw new NotFoundError('User not found');
     }
     return {
-        id: user._id,
+        userId: user._id,
         firstName: user.firstName,
         lastName: user.lastName,
         email: user.email,

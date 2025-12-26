@@ -14,11 +14,9 @@ const logger = require("../utils/logger")
 
 const register = async (req, res, next) => {
     try {
-        console.log('Register endpoint hit with data:', req.body);
         // Registration logic here
         const userData = req.body;
         const result = await authService.register(userData);
-        console.log("Result: ", result)
         res.status(201).json({ 
             success: true,
             message: 'User registered successfully', 
@@ -35,13 +33,11 @@ const register = async (req, res, next) => {
  */
 const login = async (req, res, next) => {
     try {
-        console.log('Login endpoint hit with data:', req.body); 
         const { email, password } = req.body;
         if(!email || !password) {
             throw new validationError('Email and password are required');
         }
         const result = await authService.login(email, password);
-        console.log('Login successful for result:', result);
         res.status(200).json({ 
             success: true,
             message: 'User logged in successfully', 

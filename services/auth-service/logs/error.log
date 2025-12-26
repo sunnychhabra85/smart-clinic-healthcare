@@ -11,3 +11,29 @@
 2025-12-25 16:22:16:2216 [auth-service] [31merror[39m: [31mError: User already exists with this email[39m
 2025-12-25 16:22:36:2236 [auth-service] [31merror[39m: [31mError: User already exists with this email[39m
 2025-12-25 16:28:29:2829 [auth-service] [31merror[39m: [31mError: User already exists with this email[39m
+2025-12-25 19:28:02:282 [auth-service] [31merror[39m: [31mError: Invalid email or password[39m
+2025-12-25 19:31:55:3155 [auth-service] [31merror[39m: [31mError: No token provided[39m
+2025-12-25 19:32:31:3231 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-25 19:37:05:375 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-25 19:37:07:377 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-25 19:39:46:3946 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-25 19:39:48:3948 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-25 19:40:05:405 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-25 19:41:59:4159 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-25 20:40:42:4042 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-25 20:42:29:4229 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-25 20:42:49:4249 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-25 20:44:43:4443 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-25 20:45:27:4527 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-25 20:46:15:4615 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-26 05:53:07:537 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-26 05:59:17:5917 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-26 05:59:35:5935 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-26 06:02:37:237 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-26 06:03:07:37 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-26 06:03:38:338 [auth-service] [31merror[39m: [31mError: User not found[39m
+2025-12-26 06:13:03:133 [auth-service] [31merror[39m: [31mError: Invalid token[39m
+2025-12-26 06:22:05:225 [auth-service] [31merror[39m: [31mError: next is not a function[39m
+2025-12-26 06:24:17:2417 [auth-service] [31merror[39m: [31mError: next is not a function[39m
+2025-12-26 06:28:16:2816 [auth-service] [31merror[39m: [31mError: User already exists with this email[39m
+2025-12-26 06:37:29:3729 [auth-service] [31merror[39m: [31mError: next is not a function[39m

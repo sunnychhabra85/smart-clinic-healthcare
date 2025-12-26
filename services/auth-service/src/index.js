@@ -1,4 +1,6 @@
 const express = require('express');
+const swaggerUI = require('swagger-ui-express');
+const swaggerSpec = require("./config/swagger")
 const config = require('./config');
 
 const logger = require("./utils/logger")
@@ -14,6 +16,14 @@ const app = express();
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
+
+//Swagger UI
+app.use('/api-docs', swaggerUI.serve, swaggerUI.setup(
+    swaggerSpec, {
+        customCss: '.swagger-ui .topbar { display: none }',
+        customSiteTitle: `${config.serviceName} API Documentation`
+    }
+))
 
 //import routes
 const authRoutes = require('./routes/auth.route');

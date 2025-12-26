@@ -8,7 +8,7 @@ const config = require('../config');
 
 const generateAccessToken = (payload) => {
     const tokenPayload = {
-        id: payload.userId,
+        id: payload.id,
         email: payload.email,
         roles: payload.roles,
     }
