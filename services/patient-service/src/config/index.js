@@ -7,7 +7,7 @@ module.exports = {
     serviceName: process.env.SERVICE_NAME || 'Patient Service',
 
     // MongoDB
-    mongodbUri: process.env.MONGO_URI || 'mongodb://localhost:27017/patient_db',
+    mongodbUri: process.env.MONGODB_URI || 'mongodb://localhost:27017/patient_db',
 
     // Auth Service (for token validaton)
     authServiceUrl: process.env.AUTH_SERVICE_URL || 'http://localhost:5000',

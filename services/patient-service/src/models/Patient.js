@@ -225,10 +225,10 @@ patientSchema.methods.addMedication = function(medication){
     return this.save();
 }
 
-const patient = mongoose.model('Patient', patientSchema);
+const Patient = mongoose.model('Patient', patientSchema);
 
 module.exports = {
-    patient,
+    Patient,
     GENDER,
     BLOOD_TYPE,
     PATIENT_STATUS

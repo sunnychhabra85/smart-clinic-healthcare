@@ -7,7 +7,7 @@ const logger = require('../utils/logger');
 
 const connectDatabase = async () =>{
     try{
-        const mongodbUri = process.env.MONGO_URI || 'mongodb://localhost:27017/patient_db';
+        const mongodbUri = process.env.MONGODB_URI || 'mongodb://localhost:27017/patient_db';
         const options = {
             useNewUrlParser: true,
             useUnifiedTopology: true
